@@ -32,7 +32,7 @@ Une fois vectorisées, les descriptions et photos produit sont utilisées en ent
 - ClassificationImages.ipynb : classification des produits selon leur photo
 
 
-## Résumé résultats
+## Résumé des Résultats
 
 L'accuracy est utilisée comme métrique pour quantifier la qualité de la classification. Elle est calculée à partir des catégories estimées (en non-supervisé et en supervisé) et des catégories vrais produit. Les catégories vraies sont attribuées par une intelligence humaine, et sont au nombre de 7. Le jeu de donnée contient 150 produits par catégorie.
 
