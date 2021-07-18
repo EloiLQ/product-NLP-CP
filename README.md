@@ -7,7 +7,7 @@ L'entreprise e-commerce Place de Marché souhaite réaliser un moteur de classif
 Le jeu de données est constitué de 1050 produits de Place de Marché, avec un nom, une description et une photo associées. C'est à partir de ces données non structurées qu'est effectuée la classification des produits en catégories.
 
 
-I. Vectorisation des Données Non Structurées
+## Vectorisation des Données Non Structurées
 
 
 Le projet contient deux fichiers dans lesquels est réalisée la vectorisation des données non structurées :
@@ -20,7 +20,7 @@ Le projet contient deux fichiers dans lesquels est réalisée la vectorisation d
 note : ce projet Git-hub ne contient pas les fichiers des encoder NLP [Word2Vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g) et [USE](https://tfhub.dev/google/universal-sentence-encoder/1) utilisés dans ce projet, faute de place.
 
 
-II. Classification des Produits
+## Classification des Produits
 
 
 Une fois vectorisées, les descriptions et photos produit sont utilisées en entrée d'une classification. Une première classification non-supervisée permet de tester la faisabilité du projet. Une réduction dimensionnelle avec UMAP suivie d'un clustering avec K-means est appliqué. Ce premier résultat est finalement comparé à une classification supervisée, dans laquelle on utilise un classifieur SVM. Les trois notebooks suivant réalisent une classification :
@@ -32,7 +32,7 @@ Une fois vectorisées, les descriptions et photos produit sont utilisées en ent
 - ClassificationImages.ipynb : classification des produits selon leur photo
 
 
-III. Résumé résultats
+## Résumé résultats
 
 L'accuracy est utilisée comme métrique pour quantifier la qualité de la classification. Elle est calculée à partir des catégories estimées (en non-supervisé et en supervisé) et des catégories vrais produit. Les catégories vraies sont attribuées par une intelligence humaine, et sont au nombre de 7. Le jeu de donnée contient 150 produits par catégorie.
 
