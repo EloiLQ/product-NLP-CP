@@ -1,5 +1,6 @@
 # Classification Produit à partir de Photos et de Descriptions Produit
 
+*Projet 6 de la formation OpenClassrooms*
 
 L'entreprise e-commerce Place de Marché souhaite réaliser un moteur de classification pour classer automatiquement les produits proposés sur son site web, à partir de leur description et/ou de leur photo. On démontre dans ce notebook la faisabilité d'une telle classification à partir d'outils d'intelligence artificielle.
 
