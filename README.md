@@ -14,9 +14,9 @@ note : les photos produit ne sont pas accessibles sur ce projet GitHub, faute d'
 
 Le projet contient deux fichiers dans lesquels est réalisée la vectorisation des données non structurées :
 
-- DataPreparationText.ipynb, pour les données textuelles (nom et description produit). Les modèles NLP utilisés sont : [TF-IDF](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html), [Word2Vec](https://code.google.com/archive/p/word2vec/) et [USE]((https://tfhub.dev/google/universal-sentence-encoder/1))
+- [DataPreparationText.ipynb](https://nbviewer.jupyter.org/github/EloiLQ/product-NLP-CP/blob/main/DataPreparationText.ipynb), pour les données textuelles (nom et description produit). Les modèles NLP utilisés sont : [TF-IDF](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html), [Word2Vec](https://code.google.com/archive/p/word2vec/) et [USE]((https://tfhub.dev/google/universal-sentence-encoder/1))
 
-- DataPreparationPictures.ipynb, pour les données visuelles (photo produit). Les modèles CP utilisés sont SIFT et le réseau de neurones convolutif VGG16.
+- [DataPreparationPictures.ipynb](https://nbviewer.jupyter.org/github/EloiLQ/product-NLP-CP/blob/main/DataPreparationPictures.ipynb), pour les données visuelles (photo produit). Les modèles CP utilisés sont SIFT et le réseau de neurones convolutif VGG16.
 
 
 note : ce projet Git-hub ne contient pas les fichiers des encoder NLP [Word2Vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g) et [USE](https://tfhub.dev/google/universal-sentence-encoder/1) utilisés dans ce projet, faute de place.
@@ -27,11 +27,11 @@ note : ce projet Git-hub ne contient pas les fichiers des encoder NLP [Word2Vec]
 
 Une fois vectorisées, les descriptions et photos produit sont utilisées en entrée d'une classification. Une première classification non-supervisée permet de tester la faisabilité du projet. Une réduction dimensionnelle avec UMAP suivie d'un clustering avec K-means est appliqué. Ce premier résultat est finalement comparé à une classification supervisée, dans laquelle on utilise un classifieur SVM. Les trois notebooks suivant réalisent une classification :
 
-- ClassificationDesc.ipynb : classification des produits selon leur description
+- [ClassificationDesc.ipynb](https://nbviewer.jupyter.org/github/EloiLQ/product-NLP-CP/blob/main/ClassificationDesc.ipynb) : classification des produits selon leur description
 
-- ClassificationNames.ipynb : classification des produits selon leur nom
+- [ClassificationNames.ipynb](https://nbviewer.jupyter.org/github/EloiLQ/product-NLP-CP/blob/main/ClassificationNames.ipynb) : classification des produits selon leur nom
 
-- ClassificationImages.ipynb : classification des produits selon leur photo
+- [ClassificationImages.ipynb](https://nbviewer.jupyter.org/github/EloiLQ/product-NLP-CP/blob/main/ClassificationImages.ipynb) : classification des produits selon leur photo
 
 
 ## Résumé des Résultats
