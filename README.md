@@ -36,7 +36,7 @@ Une fois vectorisées, les descriptions et photos produit sont utilisées en ent
 
 ## Résumé des Résultats
 
-L'accuracy est utilisée comme métrique pour quantifier la qualité de la classification. Elle est calculée à partir des catégories estimées (en non-supervisé et en supervisé) et des catégories vrais produit. Les catégories vraies sont attribuées par une intelligence humaine, et sont au nombre de 7. Le jeu de donnée contient 150 produits par catégorie.
+L'accuracy est utilisée comme métrique pour quantifier la qualité de la classification. Elle est calculée à partir des catégories estimées (en non-supervisé et en supervisé) et des catégories 'vraies' produit. Les catégories 'vraies' sont attribuées par une intelligence humaine, et sont au nombre de 7. Le jeu de donnée contient 150 produits par catégorie.
 
 
 En non-supervisé, les meilleurs résultats sont obtenus à partir des noms produits, vectorisés avec le modèle NLP USE. L'accuracy atteint les 77 %. À partir des descriptions produit, les meilleurs résultats sont obtenus avec le modèle TF-IDF, avec une accuracy de 67 %. Avec les images, c'est avec le CNN VGG16 que l'on obtient les meilleurs résultats, avec une accuracy d'environ 48 %.
