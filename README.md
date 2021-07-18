@@ -7,7 +7,7 @@ L'entreprise e-commerce Place de Marché souhaite réaliser un moteur de classif
 
 Le jeu de données est constitué de 1050 produits de Place de Marché, avec un nom, une description et une photo associées. C'est à partir de ces données non structurées qu'est effectuée la classification des produits en catégories.
 
-note : les photos produit ne sont pas accessible sur ce projet GitHub, faute d'espace libre.
+note : les photos produit ne sont pas accessibles sur ce projet GitHub, faute d'espace libre.
 
 ## Vectorisation des Données Non Structurées
 
